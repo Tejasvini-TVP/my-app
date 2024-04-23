@@ -2,6 +2,7 @@ import {Link} from 'react-router-dom'
 
 const NavBar = () => {
     return (
+        // Navbar
        <nav>
         <ul>
             <li>
