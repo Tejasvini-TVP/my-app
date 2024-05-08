@@ -47,9 +47,11 @@ const articles = [
             interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
             consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
         ]
-    },     {
-        name: 'my-thoughts-on-resumes',
-        title: 'My Thoughts on Resumes',
+    },     
+    {
+
+        name: 'Vishal',
+        title: 'My Thoughts on Resues',
         content: [
             `Today is the day I talk about something which scares most people: resumes.
             In reality, I'm not sure why people have such a hard time with proin congue
