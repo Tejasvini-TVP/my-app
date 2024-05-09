@@ -11,5 +11,10 @@ const useUser = () => {
             setIsLoading(false);
 
         })
-    })
+
+         return unsubscribe;
+    },[])
+
+    return  { user, isLoading };
  };
+  export default useUser;
