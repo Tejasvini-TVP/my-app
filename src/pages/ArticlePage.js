@@ -46,7 +46,8 @@ const ArticlePage = () => {
         </div>
         {article.content.map((paragraph,i) => (
             <p key={i}>{paragraph}</p>
-        ))}
+        ))} 
+        // user (?,:)login after articles page
         {user
          ? <AddCommentForm
          articleName={articleId}
