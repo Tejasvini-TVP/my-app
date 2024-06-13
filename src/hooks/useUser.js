@@ -8,7 +8,7 @@ const useUser = () => {
     useEffect(() => {
         const unsubscribe = onAuthStateChanged(getAuth(), user => 
             {
-            setUser(user);
+            setUser(user); 
             setIsLoading(false);
 
         })
@@ -19,3 +19,5 @@ const useUser = () => {
     return  { user, isLoading };
  };
   export default useUser;
+
+  
