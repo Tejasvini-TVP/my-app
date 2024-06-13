@@ -6,7 +6,8 @@ const useUser = () => {
     const [isLoading,setIsLoading] = useState(true);
 
     useEffect(() => {
-        const unsubscribe = onAuthStateChanged(getAuth(), user => {
+        const unsubscribe = onAuthStateChanged(getAuth(), user => 
+            {
             setUser(user);
             setIsLoading(false);
 
